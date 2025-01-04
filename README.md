@@ -33,8 +33,7 @@ The primary goal of this project is to provide a simple and effective platform t
   - Django (Python framework)
   - MySQL (for database management)
 - **Frontend**:
-  - HTML (for structuring the web pages)
-  - CSS (for styling the pages)
+  - UI
 - **Other**:
   - Python 3.x
   - Django 3.x
