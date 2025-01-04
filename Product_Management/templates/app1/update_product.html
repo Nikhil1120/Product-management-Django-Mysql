@@ -1,0 +1,28 @@
+{% extends "app1/index.html" %}
+{% block content %}
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Update Product</h2>
+
+        <!-- Product Update Form -->
+        <form method="post">
+            {% csrf_token %}
+            
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <tbody>
+                        {{ form.as_table }}
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="text-center mt-4">
+                <input type="submit" class="btn btn-primary btn-lg" value="Update Product">
+            </div>
+        </form>
+    </div>
+
+  
+</body>
+{% endblock %}
